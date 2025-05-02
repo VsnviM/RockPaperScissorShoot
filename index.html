@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="scripts.js" defer></script>
+    
+    <title>Stone Paper Scissor</title>
+</head>
+<body>
+    <div class="tv-container">
+        <img src="/gallery/tvScreen.png" alt="tv bg" class="tv-bg" />
+    
+<div class="tv-screen">
+    <section  id="intro_screen" >
+        <div class="title">
+            <h1>Stone Paper Scissor</h1> </div>
+
+        <div class="instructions" id="instructions" >
+            <p id="p1">- Rock beats Scissors. <br><br>- Scissors beats Paper. <br><br> - Paper beats Rock. <br><br></p>
+            <p id="p2">Reach 3 to win the game.</p><br><br>
+            
+        </div> <div class="playbtn">
+            <button class="play" id="play"> Play!</button></div>
+    </section>
+
+    <section class="hidden" id="game_screen">
+            <div class="game_title">
+                <h1>Stone Paper Scissor</h1>
+            </div>
+            <div class="game_instructions">
+                <button id="stone" class="btn-0">Stone</button>
+                <button id="paper" class="btn-1">Paper</button>
+                <button id="scissor" class="btn-2">Scissor</button>
+                
+            </div>
+    <div class="score-row">
+        <div class="score-item">
+            <p>Computer:</p>
+            <div class="computer" id="computer"></div>
+        </div>
+        <div class="score-item">
+            <p>You:</p>
+            <div class="user" id="user"></div>
+        </div>
+    </div>
+    </section>
+
+    <div class="hidden" id="round_result">
+        <p class="round_result_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+      </div>
+
+    <section class="hidden" id="result_screen" >
+        <div class="result" id="result">Congratulations! You won!</div> <br>
+        <div class="playAgain">
+            <button class="play_again" id="play_again">Play Again</button>
+            </div>
+    </section>
+</div>   
+</div>   
+</body>
+</html>
